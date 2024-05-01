@@ -56,7 +56,7 @@
                         <![CDATA[
                         The application uses S3 storage with speical operation.
 
-                        Checkout Azure Blob Stroage for managed object storage on Azure.
+                        Checkout Azure Blob Stroage for managed object storage on Azure. 
 
                         Select the code and type "change to Azure Blob Storage Java code" in GitHub Copilot to see how to use Azure Blob Storage in Java.
                         ]]>
