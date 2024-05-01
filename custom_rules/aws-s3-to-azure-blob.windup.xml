@@ -43,5 +43,29 @@
                 </hint>
             </perform>
         </rule>
+        <rule id="s3-to-azure-blob-01001">
+            <when>
+                <or>
+                    <javaclass references="software.amazon.awssdk.services.s3.presigner.{*}" />
+					<javaclass references="com.amazonaws.services.s3.transfer.{*}" />
+                </or>
+            </when>
+            <perform>
+                <hint title="S3 found in the application with speical operations" category-id="information" effort="0">
+                    <message>
+                        <![CDATA[
+                        The application uses S3 storage with speical operation.
+
+                        Checkout Azure Blob Stroage for managed object storage on Azure.
+
+                        Select the code and type "change to Azure Blob Storage Java code" in GitHub Copilot to see how to use Azure Blob Storage in Java.
+                        ]]>
+                    </message>
+                    <link title="Azure Blob Storage" href="https://learn.microsoft.com/en-us/azure/storage/blobs/"/>
+
+                    <tag>storage</tag>
+                </hint>
+            </perform>
+        </rule>
     </rules>
 </ruleset>
