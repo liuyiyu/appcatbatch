@@ -62,7 +62,7 @@
                         ]]>
                     </message>
                     <link title="Azure Blob Storage" href="https://learn.microsoft.com/en-us/azure/storage/blobs/"/>
-
+ 
                     <tag>storage</tag>
                 </hint>
             </perform>
