@@ -1,0 +1,1 @@
+C:\dev\appcatbatch\appcatcli\bin\appcat.bat --input src\%1 --target azure-aks --userRulesDirectory C:\dev\appcatbatch\customized_rules --output report\%1 --overwrite
